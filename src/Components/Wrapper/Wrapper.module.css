@@ -1,0 +1,45 @@
+.wrapper {
+    background: rgb(27, 55, 100);
+    padding: 36px 0;
+    color: #fff;
+    min-height: 60vh;
+    background-image: url(../../assets/Photo2.png);
+    background-repeat: no-repeat;
+    background-position:  right;
+}
+
+.desc {
+    color: rgb(180, 199, 231);
+    font-family: Inter;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 180%;
+    letter-spacing: -1%;
+}
+
+.orderBtn {
+    border-width: 0 1px 1px 1px;
+    border-style: solid;
+    border-color: rgb(255, 202, 66);
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
+    font-family: Cardo;
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 125%;
+    letter-spacing: 2%;
+    text-align: center;
+}
+
+
+.content {
+    padding: 80px 0;
+}
+
+@media screen and (max-width: 768px) {
+    .wrapper {
+        min-height: 105vh;
+        background-position: bottom left;
+      
+    }
+}

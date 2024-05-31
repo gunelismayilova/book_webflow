@@ -1,0 +1,82 @@
+.contact {
+    margin: 130px 0;
+}
+
+.desc {
+    color: rgb(150, 154, 160);
+    font-family: Inter;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 180%;
+    letter-spacing: -1%;
+}
+
+.detail {
+    display: flex;
+    gap: 25px;
+    margin-bottom: 25px;
+    align-items: center;
+}
+
+.detailTitle {
+    display: block;
+    color: rgb(27, 55, 100);
+    font-family: Cardo;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: -1%;
+}
+
+.detailImg {
+    background: rgb(27, 55, 100);
+    width: 65px;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 202, 66);
+    font-size: 24px;
+}
+
+.detailInfo {
+    color: rgb(150, 154, 160);
+    font-family: Inter;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 180%;
+    letter-spacing: -1%;
+}
+.formInput {
+    display: flex;
+    padding: 23px 27px;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid rgb(220, 225, 233);
+    background: rgb(255, 255, 255);
+    margin-bottom: 10px;
+}
+.inputElement {
+    border: none;
+    outline: none;
+    width: 100%;
+    background: transparent;
+}
+
+.inputElement::placeholder {
+    color: rgb(150, 154, 160);
+    font-family: Inter;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 180%;
+    letter-spacing: -1%;
+}
+
+.sendBtn {
+    background: rgb(255, 202, 66);
+    width: 100%;
+}
+
+.content {
+    padding-right: 10%;
+}

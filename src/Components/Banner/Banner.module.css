@@ -1,0 +1,36 @@
+.banner {
+    background: rgb(27, 55, 100);
+    padding: 120px 0;
+}
+
+.bannerTitle {
+    color: rgb(255, 255, 255);
+    font-family: Cardo;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 110%;
+    letter-spacing: -2%;
+    text-align: center;
+    position: relative;
+    padding-bottom: 25px;
+}
+
+.bannerTitle::after {
+    content: '';
+    position: absolute;
+    width: 55px;
+    border: 3px solid rgb(255, 202, 66);
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.desc {
+    color: rgb(180, 199, 231);
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 180%;
+    letter-spacing: -1%;
+    text-align: center;
+    padding: 20px 0;
+}

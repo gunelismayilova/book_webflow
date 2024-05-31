@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Inter:wght@100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    color: rgb(27, 55, 100);
+
+}
+
+/* header {
+    background: rgb(27, 55, 100);
+    min-height: 100vh;
+    padding-bottom: 100px;
+
+} */
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Cardo", serif;
+    /* color: rgb(27, 55, 100); */
+}
+
+a.active {
+    background-color: #fff;
+    color: rgb(27, 55, 100) !important;
+}
+.navbar-collapse {
+    flex-basis: 0;
+    flex-grow: 0;
+}
+
+
+.navbar-brand span {
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 125%;
+}
+
+.navbar-brand img {
+    margin-right: 8px;
+}
+
+.navbar .social-icons span {
+    display: flex;
+    background-color: #fff;
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 8px;
+    color: rgb(27, 55, 100);
+}
+
+.navbar-nav .nav-item a{
+    color: rgb(255, 255, 255);
+}
+
+.navbar-nav .nav-item.cart a {
+    position: relative;
+}
+
+.navbar-nav .nav-item.cart a span.num {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 16px;
+    height: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(255, 202, 66);
+    color: rgb(27, 55, 100);
+    font-size: 10px;
+    font-weight: 800;
+    line-height: 125%;
+    border-radius: 50%;
+    transform: translateY(10%);
+}
+
+.collapse .order-btn {
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 125%;
+    letter-spacing: 2%;
+    background: rgb(255, 202, 66);
+    margin-left: 15px;
+}
+
+button {
+    background: transparent;
+    border: none;
+    padding: 15px 30px;
+}
+.navbar-toggler {
+    background-color: #fff !important;
+}
+
+.aboutAuthor img,
+.learn img,
+.authorBooks img {
+    width: 100%;
+}
+
+h3.title {
+    color: rgb(27, 55, 100);
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: -2%;
+    text-align: center;
+    padding-bottom: 20px;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+h3.title::after {
+    content: '';
+    position: absolute;
+    width: 55px;
+    border: 3px solid rgb(255, 202, 66);
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.authorInfo h3.title,
+.testimonials h3.title {
+    text-align: left;
+    position: relative;
+}
+
+
+
+.wrapper h3.title {
+    color: rgb(255, 255, 255);
+    text-align: left;
+    position: relative;
+}
+
+.authorInfo h3.title::after,
+.wrapper h3.title::after,
+.testimonials h3.title::after {
+    left: 0;
+    transform: translateX(0);
+}
+
+.calloutContent h3.title::after {
+    border: 3px solid rgb(27, 55, 100);
+}
+
+h3.title.left {
+    text-align: left;
+    position: relative;
+}
+
+h3.title.left::after {
+    left: 0;
+    transform: translateX(0);
+}
+
+footer {
+    padding-top: 80px;
+    background: rgb(27, 55, 100);
+}

@@ -1,0 +1,39 @@
+.learn {
+    margin: 140px 0;
+}
+.contentImg {
+    width: 100%;
+}
+
+.learning {
+    padding: 40px 30px;
+    background: rgb(244, 248, 255);
+    margin-bottom: 25px;
+    width: 90%;
+}
+
+.num {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    background: rgb(255, 202, 66);
+    color: rgb(27, 55, 100);
+    font-family: Cardo;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: -1%;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-bottom: 25px;
+}
+
+.desc {
+    color: rgb(27, 55, 100);
+    font-family: Cardo;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 140%;
+    letter-spacing: -1%;
+}

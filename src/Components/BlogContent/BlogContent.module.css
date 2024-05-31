@@ -1,0 +1,27 @@
+.blogContent {
+    margin: 100px 0;
+}
+
+.blogImg {
+    width: 100%;
+    margin-bottom: 20px;
+    object-fit: cover;
+}
+
+.blogDetails {
+    color: rgb(27, 55, 100);
+    font-family: Cardo;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: -1%;
+}
+
+.blogDesc {
+    color: rgb(150, 154, 160);
+    font-family: Inter;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 170%;
+    letter-spacing: -1%;
+}

@@ -1,0 +1,29 @@
+.trustedBy {
+    padding: 130px 0;
+}
+
+.title {
+    color: rgb(27, 55, 100);
+    font-family: Cardo;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: -1%;
+    text-align: center;
+}
+
+.imgContainer {
+    text-align: center;
+}
+
+/* .img {
+    width: 100px;
+} */
+
+.content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align:center ;
+    justify-content: center;
+}

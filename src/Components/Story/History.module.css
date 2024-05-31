@@ -1,0 +1,54 @@
+.history {
+    padding: 120px 0;
+}
+
+.desc {
+    color: rgb(150, 154, 160);
+    font-family: Inter;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 180%;
+    letter-spacing: -1%;
+}
+.details {
+    padding-left: 40px;
+}
+.detail {
+    display: flex;
+    gap: 35px;
+    align-items: center;
+}
+
+.num {
+    display: block;
+    padding: 7px 18px;
+    background: rgb(255, 202, 66);
+    color: rgb(27, 55, 100);
+    font-family: Cardo;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: -1%;
+}
+
+.detailTitle {
+    color: rgb(27, 55, 100);
+    font-family: Cardo;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: -1%;
+}
+
+.detailText {
+    color: rgb(150, 154, 160);
+    font-family: Inter;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 180%;
+    letter-spacing: -1%;
+}
+
+.storyImg {
+    width: 100%;
+}

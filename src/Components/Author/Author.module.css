@@ -1,0 +1,61 @@
+.author {
+    padding: 150px 0;
+    background: rgb(246, 248, 252);
+} 
+
+.authorInfo {
+    margin-top: 80px;
+}
+
+.details {
+    padding: 45px 0;
+    background: rgb(255, 255, 255);
+    text-align: center;
+    border: 2px solid rgb(223, 233, 248);
+}
+.detail {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+.detailTitle {
+    color: rgb(27, 55, 100);
+    font-family: Cardo;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: -1%;
+}
+
+.detailInfo{
+    color: rgb(150, 154, 160);
+    font-family: Inter;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 280%;
+    letter-spacing: -1%;
+}
+
+.desc {
+    color: rgb(150, 154, 160);
+    font-family: Inter;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 180%;
+    letter-spacing: -1%;
+}
+
+.contactBtn {
+    background: rgb(255, 202, 66);
+}
+
+.link {
+    color: rgb(27, 55, 100);
+    font-family: Cardo;
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 125%;
+    letter-spacing: 2%;
+    text-decoration: none;
+}

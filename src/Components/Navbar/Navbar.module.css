@@ -1,0 +1,24 @@
+ .navbarCollapse {
+    /* flex-basis: 100%; */
+    flex-grow: 1;
+    justify-content: flex-end;
+} 
+
+.nav {
+    background: rgb(27, 55, 100);
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+.link {
+    color: #fff !important;
+    padding: 5px 8px;
+}
+.btn {
+    transition: 0.4s all;
+}
+.btn:hover {
+    background-color: #fff;
+}

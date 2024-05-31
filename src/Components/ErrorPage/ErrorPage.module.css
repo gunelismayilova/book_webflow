@@ -1,0 +1,61 @@
+.notFound {
+    min-height: 100vh;
+    background-image: url("/BgImage.png");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    width: 40%;
+    text-align: center;
+}
+
+.title {
+    margin-top: 25px;
+    color: rgb(27, 55, 100);
+    font-family: Cardo;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 130%;
+    letter-spacing: -2%;
+}
+
+.desc {
+    color: rgb(150, 154, 160);
+    font-family: Inter;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 170%;
+    letter-spacing: -1%;
+    padding-bottom: 20px;
+}
+
+.btn {
+    padding: 20px 44px;
+    background: rgb(255, 202, 66);
+    color: rgb(27, 55, 100);
+    font-family: Cardo;
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 125%;
+    letter-spacing: 2%;
+    text-decoration: none;
+    
+}
+
+.titleImg {
+    width: 100%;
+}
+
+@media screen and (max-width: 768px){
+    .notFound {
+        min-height: 80vh;
+    }
+    .content {
+        width: 90%;
+    }
+}
