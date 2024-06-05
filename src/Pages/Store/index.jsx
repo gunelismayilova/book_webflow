@@ -4,6 +4,7 @@ import Banner from '../../Components/Banner';
 import Callout from '../../Components/Callout/Callout';
 import Footer from '../../Components/Footer/Footer';
 import Books from '../../Components/Books/Books';
+import Cart from '../../Components/Cart';
 
 const Store = () => {
     return (
@@ -13,6 +14,8 @@ const Store = () => {
                 title="My Store"
                 desc="There are many variations of passages of Lorem Ipsum available,  have suffered alteration in some form."
             />
+
+           
 
             <Books />
 

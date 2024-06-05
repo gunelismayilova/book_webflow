@@ -1,0 +1,149 @@
+.yourCart {
+    position: fixed;
+    inset: 0;
+    background: rgba(27, 55, 100, .8);
+    /* opacity: 0.8; */
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.cartContent {
+    width: 50%;
+    /* opacity: 1; */
+}
+.cartInfo {
+    display: flex;
+    flex-direction: column;
+}
+.title {
+    background: rgb(255, 202, 66);
+    padding: 35px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cartTitle {
+    color: rgb(27, 55, 100);
+    font-family: Cardo;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: -2%;
+    
+}
+
+.closeBtn {
+    font-size: 20px;
+    color: rgb(27, 55, 100);
+    font-weight: 700;
+    line-height: 120%;
+    
+}
+.cartInfo {
+    padding: 30px 50px;
+    background-color: #fff;
+}
+.content {
+    height: 180px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bookInfo,
+.bookImg,
+.img {
+    height: 100%;
+}
+
+.bookInfo {
+    display: flex;
+    
+    
+}
+
+.bookContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.bookTitle {
+    color: rgb(27, 55, 100);
+    font-family: Cardo;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: -1%;
+    margin-bottom: 0;
+}
+
+.price {
+    color: rgb(150, 154, 160);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 170%;
+    letter-spacing: -1%;
+}
+
+.removeBtn {
+    padding: 0;
+    text-align: left;
+    color: rgb(27, 55, 100);
+    font-family: Cardo;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 52px;
+    letter-spacing: -1%;
+}
+
+.productNum {
+    border: 1px solid rgb(232, 232, 232);
+    background: rgb(249, 249, 249);
+    padding: 18px 25px;
+    height: 62px;
+
+}
+
+.subContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.subTitle {
+    color: rgb(27, 55, 100);
+    font-family: Cardo;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 52px;
+    letter-spacing: -1%;
+}
+
+.totalPrice {
+    color: rgb(27, 55, 100);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 170%;
+    letter-spacing: -1%;
+}
+
+.checkoutBtn {
+    background: rgb(255, 202, 66);
+    padding: 20px 0;
+    text-align: center;
+    color: rgb(27, 55, 100);
+    font-family: Cardo;
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 125%;
+    letter-spacing: 2%;
+    text-decoration: none;
+}

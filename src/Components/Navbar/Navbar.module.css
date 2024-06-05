@@ -22,3 +22,25 @@
 .btn:hover {
     background-color: #fff;
 }
+
+@media screen and (max-width: 992px) {
+    .navbarCollapse {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        background-color: rgb(27, 55, 100);
+        transition: 0.5s all;
+    }
+
+    .navbarCollapse.showNav {
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .navbarNav {
+        width: 100%;
+    }
+}

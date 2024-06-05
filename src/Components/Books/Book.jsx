@@ -1,8 +1,22 @@
-import React from 'react'
+import React, { useState } from 'react'
 import styles from "./Books.module.css";
 import { Link } from 'react-router-dom'
+import Cart from '../Cart';
 
 const Book = () => {
+    const [show, setShow] = useState(false);
+
+    const handleShow = () => {
+        setShow(true);
+    }
+
+    // const handleClose = () => setShow(false);
+
+    if (show) {
+        return (
+            <Cart setShow={setShow}/>
+        )
+    }
     return (
         <>
             <div className="col-md-6 col-lg-4 mb-4">
@@ -19,7 +33,7 @@ const Book = () => {
 
                         <p className={styles.desc}>Many variations of passages of Lorem Ipsum willing araise  alteration in some form.</p>
                         <p className={styles.type}>Printed Books</p>
-                        <button className={styles.orderBtn}><Link className={styles.link}>Order Today</Link></button>
+                        <button className={styles.orderBtn} onClick={handleShow}><Link className={styles.link}>Order Today</Link></button>
 
                     </div>
 
